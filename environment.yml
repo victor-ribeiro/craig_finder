@@ -1,0 +1,26 @@
+name: craig_finder
+
+channels:
+  - pytorch
+  - conda-forge
+  - huggingface
+
+dependencies:
+  - python=3.8
+  - dotmap
+  - seaborn
+  - pytorch
+  - torchvision
+  - scikit-learn
+  - black
+  - scipy
+  - numba
+  - matplotlib
+  - pandas
+  - torchtext
+  - dotmap
+  - pyyaml
+  - datasets
+  - pip
+  - pip:
+    - sliceline

@@ -1,0 +1,7 @@
+build/*
+cords.egg-info/*
+data/compas/
+dist/*
+cords/*
+cords
+*.csv
