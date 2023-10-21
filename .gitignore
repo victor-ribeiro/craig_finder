@@ -1,7 +1,10 @@
 build/*
 cords.egg-info/*
 data/compas/
+__pycache__/*
+.ipynb_checkpoints/*
 dist/*
 cords/*
 cords
 *.csv
+*.pyc
