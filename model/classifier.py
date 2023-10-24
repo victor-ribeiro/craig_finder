@@ -94,5 +94,4 @@ def train(
         # else:
         #     f"train_loss: {train_hist[-1] or 0} \t val_loss: {val_hist[-1] or 0}"
     # model.train(False)
-    print(y_pred)
     return {"val_loss": val_hist, "train_loss": train_hist}
