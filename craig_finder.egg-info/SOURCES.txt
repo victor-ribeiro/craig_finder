@@ -1,0 +1,6 @@
+README.md
+setup.py
+craig_finder.egg-info/PKG-INFO
+craig_finder.egg-info/SOURCES.txt
+craig_finder.egg-info/dependency_links.txt
+craig_finder.egg-info/top_level.txt

@@ -15,21 +15,8 @@ if ! find_in_conda_env $CONDA_ENV ; then
     conda activate $CONDA_ENV
 fi
 
-{
-    
-    # try
-    pip install cords
-
-} || {
-
-    # catch
-
-    if [ ! -d 'cords' ]
-    then
-        git clone https://github.com/decile-team/cords.git
-    fi
-    pip install -r cords/requirements/requirements.txt
-    python cords/setup.py build
-    python cords/setup.py install
-
-}
+# clona o repositório do DeepCore
+if [ ! -d 'DeepCore' ]
+then
+    git clone https://github.com/PatrickZH/DeepCore.git
+fi
